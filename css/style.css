@@ -2006,3 +2006,16 @@ footer li a:hover {
 		padding-left: 8px;
 	}
 }
+
+.navbar-brand img{
+	height: 100px;
+
+}
+
+.login-modal-left img{
+	width: 200px;
+}
+
+.card img{
+	height: 300px;
+}
