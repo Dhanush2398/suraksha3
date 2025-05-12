@@ -1,9 +1,4 @@
-/*
-Template Name: Chpoee - Bootstrap E-Commerce Template
-Author: Askbootstrap
-Author URI: https://themeforest.net/user/askbootstrap
-Version: 1.1
-*/
+
 $(document).ready(function() {
     "use strict";
     
@@ -179,3 +174,25 @@ ga('send', 'pageview');
 	
 
 });
+
+ var swiper = new Swiper(".testimonialSwiper", {
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 1,
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      }
+    }
+  });

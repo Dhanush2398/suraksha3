@@ -2080,3 +2080,139 @@ footer li a:hover {
 .icofont-instagram {
   font-size: 20px;
 }
+
+.testimonial-section {
+  background: linear-gradient(to right, #e0f2f1, #f1f8e9);
+}
+
+.testimonial-section h2 {
+  font-weight: 700;
+  color: #0c3c26;
+}
+
+.testimonial-box {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 6px solid #4caf50;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #070707;
+  margin-bottom: 20px;
+}
+
+.testimonial-box h5 {
+  font-weight: 600;
+  color: #2e7d32;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.quote-icon {
+  font-size: 40px;
+  color: #81c784;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-family: Georgia, serif;
+}
+
+
+.about-section {
+  background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+  color: #2e7d32;
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1b5e20;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.btn-read-more {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #43a047;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background: #2e7d32;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+.why-choose-us {
+  background: #f9fdfb;
+  color: #2e7d32;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.choose-box {
+  background: #ffffff;
+  border: 1px solid #e0f2f1;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.choose-box i {
+  font-size: 2.5rem;
+  color: #43a047;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.choose-box h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1b5e20;
+}
+
+.choose-box p {
+  color: #555;
+}
+
+.choose-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
