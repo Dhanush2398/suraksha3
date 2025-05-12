@@ -2019,3 +2019,57 @@ footer li a:hover {
 .card img{
 	height: 300px;
 }
+
+.categories-modern {
+  background: #eee0df;
+}
+
+.category-modern-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.category-modern-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.category-image {
+  position: relative;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #FF3a59;
+  color: #fff;
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 24px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.category-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.category-text h4 {
+  font-size: 1.2rem;
+  color: #FF3a59;
+  font-weight: bold;
+}
+
+.category-text p {
+  font-size: 0.95rem;
+  color: #000000;
+  margin-top: 8px;
+}
