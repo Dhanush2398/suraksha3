@@ -46,7 +46,7 @@ h6 {
 
 a {
 	text-decoration: none !important;
-	color: #ff5a5f;
+	color: #003049;
 	transition-duration: 0.4s;
 }
 
@@ -101,7 +101,7 @@ img {
 }
 
 .btn-primary {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5541+0,ff365d+100 */
+	
 	border-color: #ff5541 !important;
 	box-shadow: none;
 	background: #ff5541;
@@ -111,9 +111,7 @@ img {
 	background: -webkit-linear-gradient(-45deg, #ff5541 0%, #ff365d 100%);
 	/* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(135deg, #ff5541 0%, #ff365d 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5541', endColorstr='#ff365d', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
+	
 }
 
 .btn-primary:hover,
@@ -285,9 +283,9 @@ input.select2-search__field {
 }
 
 .nav-link-login {
-	color: #ff5a5f;
+	color: #003049;
 	padding: 4px 9px;
-	border: 1px solid #ff5a5f;
+	border: 1px solid #003049;
 	font-size: 12px;
 	margin: 4px -1px 0 0px;
 	vertical-align: text-top;
@@ -295,7 +293,7 @@ input.select2-search__field {
 
 .nav-link-login.active,
 .nav-link-login:hover {
-	background: #ff5a5f;
+	background: #003049;
 	color: #fff;
 }
 
@@ -1064,7 +1062,7 @@ select {
 
 #sync2 .owl-item img:hover,
 #sync2 .synced img {
-	border: 2px solid #ff5a5f;
+	border: 2px solid #003049;
 	background-color: #fff;
 }
 
@@ -1099,7 +1097,7 @@ select {
 .shop-single-detail .nav-pills .nav-link.active,
 .shop-single-detail .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #ff5a5f;
+	background-color: #003049;
 }
 
 
@@ -2049,7 +2047,7 @@ footer li a:hover {
   position: absolute;
   bottom: 15px;
   right: 15px;
-  background: #FF3a59;
+  background: #ee6c4d;
   color: #fff;
   border-radius: 50%;
   padding: 12px;
@@ -2064,7 +2062,7 @@ footer li a:hover {
 
 .category-text h4 {
   font-size: 1.2rem;
-  color: #FF3a59;
+  color: #ee6c4d;
   font-weight: bold;
 }
 
@@ -2082,12 +2080,12 @@ footer li a:hover {
 }
 
 .testimonial-section {
-  background: linear-gradient(to right, #e0f2f1, #f1f8e9);
+  background: linear-gradient(to right, #e0f2f1, #efd8d6);
 }
 
 .testimonial-section h2 {
   font-weight: 700;
-  color: #0c3c26;
+  color: #ff5541;
 }
 
 .testimonial-box {
@@ -2098,7 +2096,7 @@ footer li a:hover {
   height: 100%;
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-left: 6px solid #4caf50;
+  border-left: 6px solid #ff5541;
 }
 
 .testimonial-box:hover {
@@ -2115,14 +2113,14 @@ footer li a:hover {
 
 .testimonial-box h5 {
   font-weight: 600;
-  color: #2e7d32;
+  color: #ff5541;
   font-size: 1rem;
   margin-bottom: 0;
 }
 
 .quote-icon {
   font-size: 40px;
-  color: #81c784;
+  color: #ff5541;
   position: absolute;
   top: 20px;
   left: 10px;
@@ -2139,7 +2137,7 @@ footer li a:hover {
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #1b5e20;
+  color: #ff5541;
 }
 
 .about-text p {
@@ -2152,15 +2150,17 @@ footer li a:hover {
 .btn-read-more {
   display: inline-block;
   padding: 10px 25px;
-  background: #43a047;
+  background: #ff5541;
   color: white;
   border-radius: 30px;
   text-decoration: none;
   transition: background 0.3s ease;
+ margin-bottom: 10px;
 }
 
 .btn-read-more:hover {
-  background: #2e7d32;
+  background: #ff5541;
+  color: #fff;
 }
 
 .about-image img {
@@ -2176,7 +2176,7 @@ footer li a:hover {
 .section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #1b5e20;
+  color: #ff5541;
 }
 
 .section-subtitle {
@@ -2197,7 +2197,7 @@ footer li a:hover {
 
 .choose-box i {
   font-size: 2.5rem;
-  color: #43a047;
+  color: #ff3b59;
   margin-bottom: 15px;
   display: block;
 }
