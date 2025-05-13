@@ -2224,12 +2224,118 @@ footer li a:hover {
 }
 @media (max-width: 768px) {
   .item img {
-    max-height: 250px;
+    max-height: 350px;
   }
 }
 
-@media (min-width: 1200px) {
-  .item img {
-    max-height: 500px;
+
+header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.custom-caption {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  color: #fff;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.custom-caption h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.custom-caption p {
+  font-size: 1.2rem;
+  color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.custom-caption .btn {
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+  .custom-caption {
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    max-width: 90%;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .custom-caption h1 {
+    font-size: 1.6rem;
+  }
+
+  .custom-caption p {
+    font-size: 1rem;
+  }
+
+  .custom-caption .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.offers-block img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+
+.offers-block {
+  position: relative;
+  overflow: hidden;
+}
+
+
+@media (min-width: 768px) {
+  .col-md-4:nth-child(1) .offers-block img,
+  .col-md-4:nth-child(3) .offers-block img {
+    height: 450px;
+  }
+
+  .col-md-4:nth-child(2) .offers-block img {
+    height: 215px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .offers-block img {
+    height: 200px;
+    margin-bottom: 15px;
   }
 }
