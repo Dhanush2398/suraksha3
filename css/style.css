@@ -2019,7 +2019,7 @@ footer li a:hover {
 }
 @media (max-width: 768px) {
   .card img {
-    height: 350px;        
+    height: 250px;        
   }
 }
 .categories-modern {
@@ -2351,7 +2351,7 @@ header {
   grid-column: 3;
 }
 
-/* Optional fixed heights */
+
 .tall-img img {
   height: 100%;
   min-height: 450px;
